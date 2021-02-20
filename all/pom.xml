@@ -5,6 +5,9 @@
     <modules>
         <module>01jwt</module>
         <module>02shiro</module>
+        <module>untitled</module>
+        <module>03swagger2</module>
+        <module>04SpringSecurity</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

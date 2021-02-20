@@ -50,4 +50,23 @@ public class SessionLoginController {
         }
         return str;
     }
+
+
+    /**
+     * 模拟资源  需要相应的权限才能访问 比如 resources1只有具有权限a1的人才有资格访问
+     * @return
+     */
+    @RequestMapping("resources1")
+    public String resources1(){
+        return "我是资源1";
+    }
+
+    /**
+     * 模拟资源  需要相应的权限才能访问 比如 resources2只有具有权限a2的人才有资格访问
+     * @return
+     */
+    @RequestMapping("resources2")
+    public String resources2(){
+        return "我是资源2";
+    }
 }
